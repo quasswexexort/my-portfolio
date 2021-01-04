@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <script src="scripts/jquery-3.5.1.js"></script>
+    <script src="typed.js-master/lib/typed.js"></script>
+    <script src="scripts/index.js" type="module"></script>
+</head>
+<body>
+    <!--main container-->
+    <div class="wrapper">
+        <aside class="sidebar">
+            <img class="my-photo" src="./img/IMG_2833.PNG" alt="">
+                <!--Contacts-->
+                <div class="contacts-container">
+                    <h3 class="contacts-title" >Contacts</h3>
+                    <div>
+                        <span class="contacts-link-type">C:</span> <a class="contacts-link" href="tel:380987059792"> +38 098 7059 792</a>
+                    </div>
+                    <div>
+                        <span class="contacts-link-type">E:</span> <a class="contacts-link" href="mailto:frayero40oK@gmail.com"> frayero40oK@gmail.com</a>
+                    </div>
+                </div>
+                <!--Tech skills container-->
+                <div class="tech-skills-container">
+                    <h3 class="tech-skills-title">Tech Skills</h3>
+                <ul>
+                    <li class="tech-skills-item"> <span class="tech-skills-text" >HTML5 </span> </li>
+                    <li class="tech-skills-item"> <span class="tech-skills-text" >CSS3 </span>  </li>
+                    <li class="tech-skills-item"> <span class="tech-skills-text" >GIT </span> </li>
+                    <li class="tech-skills-item"> <span class="tech-skills-text" >WebPack </span> </li>
+                    <li class="tech-skills-item"> <span class="tech-skills-text" >JavaScript </span> </li>
+                    <li class="tech-skills-item"> <span class="tech-skills-text" >React.js </span> </li>
+                    <li class="tech-skills-item"> <span class="tech-skills-text" >Node.js </span> </li>
+                </ul>
+                </div>
+                <!--Soft skills container-->
+                <div class="soft-skills-container">
+                    <h3 class="soft-skills-title">Soft Skills</h3>
+                    <ul>
+                        <li class="soft-skills-item"> <span class="soft-skills-text" >Scrum</span> </li>
+                        <li class="soft-skills-item"> <span class="soft-skills-text" >Agile</span>  </li>
+                        <li class="soft-skills-item"> <span class="soft-skills-text" >GTD</span> </li>
+                        <li class="soft-skills-item"> <span class="soft-skills-text" >Teamwork</span> </li>
+                    </ul>
+                </div>
+        </aside>
+        <!--about me container-->
+        <div class="about-me-container">
+            <!--about me main info-->
+            <h1>
+              <span  class="header-title-accent"  id="typed"  contenteditable="true" spellcheck="false" > Front-end Developer</span>
+            </h1> 
+              <script>
+                  $('document').ready(function(){
+                    var typed = new Typed('#typed', {
+                        strings: ['First ^1000 sentence.', 'Second sentence.'],
+                        backSpeed:50,
+                        typeSpeed:60,
+                        cursorChar: '|||',
+                        loop: true,
+                        loopCount: Infinity,
+                    });
+                    $('#typed').on('focus', function(e) {
+                        typed.stop();
+                    });
+                    $('#typed').on('blur', function(e) {
+                        typed.start();
+                    });
+                });               
+              </script>
+            <div class="info-container">
+                <h2 class="profession">Front-End Developer</h2>
+                <h1 class="name" >Yuriy Philipchuk</h1>
+                <p class="discription" >Lorem Ipsum является текст-заполнитель обычно используется в графических, печать и издательской индустрии для предварительного просмотра макета и визуальных макетах.</p>
+            </div>   
+                <!--projects container-->
+            <div class="projects-container">
+                <h3 class="about-me-title">Projects</h3>
+                <ol>
+                    <li class="projects-item"> <a class="projects-link" href="https://lovecamp.goit.ua/">https://lovecamp.goit.ua/</a> 
+                    <span class="dots">...........</span>
+                    <span><b>[</b> <span class="tech-name">HTML5, CSS3</span> <b>]</b></span>
+                    </li>
+                    <li class="projects-item"> <a class="projects-link" href="https://cryptohub.goit.ua/"> https://cryptohub.goit.ua/</a> 
+                    <span class="dots">..........</span>
+                    <span><b>[</b> <span class="tech-name">JavaScript</span><b>]</b></span>
+                    </li>
+                    <li class="projects-item"> <a class="projects-link" href="https://kidslike.goit.co.ua/"> https://kidslike.goit.co.ua/</a> 
+                    <span class="dots">..........</span>
+                    <span><b>[</b>  <span class="tech-name">React.js, Node.js</span><b>]</b></span>
+                    </li>
+                </ol>
+            </div>
+            <!--work exprerince-->
+            <div>
+                <h3 class="about-me-title" >Work Experience</h3>
+
+                <!--company 1-->
+                <div>
+                    <h4 class="proffesion-title">
+                        Front-End Developer 
+                        <span class="porfession-company">Freelance </span> 
+                    </h4>
+                    <span class="profession-time"> 
+                        September 2019 - up to now <span class="profession-divinder" >|</span> Ukraine
+                    </span>
+
+                    <ul>
+                        <li class="profession-duties-item">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </li>
+                        <li class="profession-duties-item">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+                        <li class="profession-duties-item">Risus commodo viverra maecenas. </li>
+                        <li class="profession-duties-item">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod. </li>
+                    </ul>
+                </div>
+
+                <!--company 2-->
+                <div>
+                    <h4 class="proffesion-title">
+                        Manager 
+                        <span class="porfession-company">Roga & Kopyta New </span> 
+                    </h4>
+                    <span class="profession-time"> 
+                        March 2015 - October 2018 <span class="profession-divinder" >|</span> Ukraine
+                    </span>
+
+                    <ul>
+                        <li class="profession-duties-item">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod labore et dolore magna aliqua. </li>
+                        <li class="profession-duties-item">Quis ipsum suspendisse ultrices gravida.</li>
+                        <li class="profession-duties-item">Risus commodo viverra maecenas. </li>
+                    </ul>
+                </div>
+
+                <!--company 3-->
+                <div>
+                    <h4 class="proffesion-title">
+                        Manager 
+                        <span class="porfession-company">Roga & Kopyta LLC </span>    
+                    </h4>
+                    <span class="profession-time"> 
+                        March 2015 - October 2018 <span class="profession-divinder" >|</span> Ukraine
+                    </span>
+
+                    <ul class="profession-duties">
+                        <li class="profession-duties-item">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod labore et dolore magna aliqua. </li>
+                        <li class="profession-duties-item">Quis ipsum suspendisse ultrices gravida.</li>
+                        <li class="profession-duties-item">Risus commodo viverra maecenas. </li>
+                    </ul>
+                </div>
+
+                <!--Education-->
+                <div>
+                <h3 class="about-me-title">Education</h3>
+                <p class="my-university">Ternopil Volodymyr Hnatiuk National Pedagogical University </p>
+                <p class="my-faculty">Computer Technologies</p>
+                <span class="profession-time">Septermber 2017 - June 2022 | Ukraine</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

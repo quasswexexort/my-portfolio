@@ -1,0 +1,214 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    background: #f5f6fa;
+    padding: 20px;
+}
+.wrapper{
+    background: #ffffff;
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+    box-shadow: 5px 9px 20px rgba(0, 0, 0.15);
+}
+.sidebar{
+    background-color: #1e2939;
+    width: 370px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.my-photo{
+    width: 370px;
+}
+.about-me-container{
+    padding-left: 90px;
+    padding-right: 90px;
+    padding-top: 110px;
+    padding-bottom: 110px;
+}
+.contacts-container{
+    margin-top: 60px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.contacts-title{
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 24px;
+    color:palevioletred;
+    margin-bottom: 20px;
+}
+.contacts-link{
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    color:#434c5a;
+}
+.contacts-link-type{
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    color:#ffffff;
+    margin-right: 10px;
+}
+.tech-skills-title{
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 24px;
+    color:palevioletred;
+    margin-bottom: 20px;
+}
+.tech-skills-container{
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 55px;
+}
+.tech-skills-item{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #ff6b08;
+    margin-left: 20px;
+}
+.tech-skills-text{
+    color:#ffffff;
+}
+.soft-skills-container{
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 55px;
+}
+.soft-skills-title{
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 24px;
+    color:palevioletred;
+    margin-bottom: 20px;
+}
+.soft-skills-item{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #ff6b08;
+    margin-left: 20px;
+}
+.soft-skills-text{
+    color:#ffffff;
+}
+.profession{
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    margin-bottom: 25px;
+}
+.name{
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 89px;
+}
+.discription{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-top: 24px;
+}
+.info-container{
+    margin-bottom: 65px;
+}
+.about-me-title{
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 24px;
+    margin-bottom: 10px;
+}
+.projects-link{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #595959;
+}
+.tech-name{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #595959;
+}
+.dots{
+    color: #595959;
+    font-weight: 100;
+}
+.projects-item{
+    font-weight: 700;
+    margin-left: 20px;
+}
+.projects-container{
+    margin-bottom: 55px;
+
+}
+.proffesion-title{
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+.porfession-company{
+    color: palevioletred;
+}
+.profession-time{
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 24px;
+    background: palevioletred;
+}
+/* .profession-divinder{
+    color: #white;
+} */
+.profession-duties{
+    margin-top: 14px;
+    margin-bottom: 30px;
+}
+.profession-duties-item{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #595959;
+}
+.my-university{
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    color: palevioletred;
+}
+.my-faculty{
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    color: #595959;
+}
+.header-title-accent{
+    background: linear-gradient(90deg,#637bff 20%,#21c8f6 40%,#637bff 60%,#21c8f6 80%,#637bff);
+    background-size: 200% auto;
+    padding-right: 5px;
+    color: #000;
+    caret-color: #637bff;
+    background-clip: text;
+    text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-animation: glimmer 5s linear infinite;
+    animation: glimmer 5s linear infinite;
+    cursor: url(../img/curr.cur), auto !important;  
+}
+.tw-leading-tight {
+    line-height: 1.25;
+}
+.typed-cursor {
+    color: #637bff;
+    
+}
